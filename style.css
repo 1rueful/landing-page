@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
 
 * {
     margin: 0;
@@ -8,26 +8,24 @@
 
 body {
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header {
+    width: 1000px;
     display: flex;
-    padding: 16px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
+    justify-content: space-between;
 }
 
 ul {
@@ -36,8 +34,19 @@ ul {
     gap: 16px;
 }
 
+.hero-container {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 36px 0;
+}
+
 h1 {
     color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 a {
@@ -55,21 +64,17 @@ button {
     color: white;
 }
 
-.logo {
-    font-size: 24px;
+.hero img {
+    width: 600px;
 }
 
-.text {
-    width: 400px;
-}
-
-.text p {
+.hero-text p {
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 8px;
 }
 
-.text h1 {
+.hero-text h1 {
     font-size: 48px;
     font-weight: 700;
 }
@@ -82,14 +87,57 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-text {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
 }
 
 .quote p {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    color: #1f2937;
+}
+h3 {
+    align-self: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 52px 0;
+}
+
+.modal {
+    background-color: #3882f6;
 }
