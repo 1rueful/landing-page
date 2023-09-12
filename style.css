@@ -12,7 +12,6 @@ body {
 
 p {
     font-size: 18px;
-    color: #e5e7eb;
 }
 
 .hero {
@@ -20,6 +19,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 16px;
 }
 
 .header {
@@ -38,7 +38,7 @@ ul {
     width: 1000px;
     display: flex;
     align-items: center;
-    padding: 36px 0;
+    padding: 52px 0;
 }
 
 h1 {
@@ -57,7 +57,7 @@ a {
 
 button {
     cursor: pointer;
-    padding: 8px 16px;
+    padding: 8px 20px;
     border-radius: 8px;
     background-color: #3882f6;
     border: 1px solid #3882f6;
@@ -87,7 +87,7 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
-    margin-top: 30px;
+    margin: 30px 0;
     text-align: center;
 }
 
@@ -95,7 +95,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 52px;
-    margin: 30px 0;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -135,9 +135,42 @@ h3 {
 .container {
     display: flex;
     justify-content: center;
-    margin: 52px 0;
+    margin: 52px 0px;
 }
 
 .modal {
+    display: flex;
     background-color: #3882f6;
+    width: 800px;
+    padding: 36px 52px;
+    border-radius: 10px;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.little {
+    font-size: 20px;
+}
+
+.left {
+    flex-wrap: wrap;
+    color: #e5e7eb;
+}
+
+.btn-white {
+    border: 1px solid white;
+    align-self: flex-end;
+}
+
+.footer {
+    height: 72px;
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 18px;
 }
